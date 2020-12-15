@@ -6,10 +6,21 @@
 ### 数据
 本次比赛由的训练集为第三第四季度的用户数据，测试集为次年第一季度的用户数据。每个数据集包含了如下数据表：
   * aum数据：即用户的资产数据（定期活期理财基金等）
+  
+  ![image](https://github.com/yipinterested/XMBANK2020/blob/main/Image_folder/aum.jpg)
   * 存款数据（存款产品和数量等）
+  
+  ![image](https://github.com/yipinterested/XMBANK2020/blob/main/Image_folder/cunkuan.jpg)
   * 重大事件数据（开户贷款逾期等）
+  
+  ![image](https://github.com/yipinterested/XMBANK2020/blob/main/Image_folder/big_event.jpg)
   * 用户行为数据（转出转入等）
-此处不一一列举每个数据集的字段，有兴趣的可以在官网查看。
+  
+  ![image](https://github.com/yipinterested/XMBANK2020/blob/main/Image_folder/behavior.jpg)
+  * 用户个人信息
+  
+  ![image](https://github.com/yipinterested/XMBANK2020/blob/main/Image_folder/cust_info.jpg)
+  
 
 ### 评分标准
 本次任务为三分类任务，-1表示下降，0代表维稳，1代表上升，评估指标使用kappa值，这次比赛是我第一次接触到kappa值
